@@ -1,5 +1,6 @@
 {
   "name": "genai-fullstack-app",
+  "type": "module",
   "private": true,
   "scripts": {
     "install-client": "cd client && npm install",
