@@ -1,0 +1,15 @@
+{
+  "name": "genai-fullstack-app",
+  "private": true,
+  "scripts": {
+    "install-client": "cd client && npm install",
+    "build-client": "cd client && npm run build",
+    "start": "node server.js",
+    "render-build": "npm run install-client && npm run build-client"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1"
+  }
+}
